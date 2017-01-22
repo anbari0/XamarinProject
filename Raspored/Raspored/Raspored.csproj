@@ -79,10 +79,8 @@
     <EmbeddedResource Include="gtk-gui\gui.stetic">
       <LogicalName>gui.stetic</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\..\Desktop\Projekt\Logo\vector_sun_book_logo.png">
-      <Link>vector_sun_book_logo.png</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\..\Desktop\Projekt\Logo\Logo_smanjeni.png" />
+    <EmbeddedResource Include="vector_sun_book_logo.png" />
+    <EmbeddedResource Include="Logo_smanjeni.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
