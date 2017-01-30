@@ -9,9 +9,7 @@ public partial class MainWindow : Gtk.Window
 	public MainWindow() : base(Gtk.WindowType.Toplevel)
 	{
 		Build();
-		DB.OtvoriKonekciju();
-		Skola.ucionice_lista = DBUcionica.DohvatiSve_Ucionice();
-		Skola.predavaci_lista = DBPredavac.DohvatiSve_Predavace();
+
 	}
 
 	protected void OnDeleteEvent(object sender, DeleteEventArgs a)

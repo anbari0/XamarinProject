@@ -43,7 +43,8 @@ namespace Raspored
 			this.WidthRequest = 400;
 			this.HeightRequest = 300;
 			this.Name = "Raspored.DodajUcionicuWindow";
-			this.Title = global::Mono.Unix.Catalog.GetString("Dodaj Učionicu");
+			this.Title = global::Mono.Unix.Catalog.GetString("Dodaj učionicu");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource("Raspored.Logo_smanjeni.png");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(1));
 			this.Modal = true;
 			this.BorderWidth = ((uint)(20));

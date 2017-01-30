@@ -272,7 +272,8 @@ namespace Raspored
 			// Widget Raspored.PregledajTermineWindow
 			this.HeightRequest = 650;
 			this.Name = "Raspored.PregledajTermineWindow";
-			this.Title = global::Mono.Unix.Catalog.GetString("PregledajTermineWindow");
+			this.Title = global::Mono.Unix.Catalog.GetString("Pregledaj termine");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource("Raspored.Logo_smanjeni.png");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(1));
 			this.Modal = true;
 			this.Resizable = false;

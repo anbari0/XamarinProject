@@ -31,7 +31,8 @@ namespace Raspored
 			global::Stetic.Gui.Initialize(this);
 			// Widget Raspored.ZauzmiUcionuWindow
 			this.Name = "Raspored.ZauzmiUcionuWindow";
-			this.Title = global::Mono.Unix.Catalog.GetString("Zauzmi Učionu");
+			this.Title = global::Mono.Unix.Catalog.GetString("Zauzmi ucionicu");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource("Raspored.Logo_smanjeni.png");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(1));
 			this.Modal = true;
 			this.BorderWidth = ((uint)(10));

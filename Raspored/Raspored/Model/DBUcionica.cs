@@ -12,7 +12,7 @@ namespace Raspored
 			SqliteCommand com = DB.con.CreateCommand();
 			// DROP TABLE IF EXISTS Ucionica;
 			com.CommandText = @"
-				
+				 
 				CREATE TABLE IF NOT EXISTS Ucionica(
 					ID integer primary key autoincrement,
 					naziv nvarchar(32),

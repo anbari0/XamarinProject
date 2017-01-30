@@ -19,7 +19,8 @@ namespace Raspored
 
 		protected void OnButtonSpremiClicked(object sender, EventArgs e)
 		{
-			if (entry_naziv.Text.Length > 2 && entry_kapacitet.Text != "" && entry_dodatniKomentar.Text.Length > 2) 
+			int kapacitet;
+			if (entry_naziv.Text.Length > 2 && entry_kapacitet.Text != "" && Int32.TryParse(entry_kapacitet.Text, out kapacitet)) 
 			{
 				DBUcionica.Dodaj(new Ucionica(entry_naziv.Text, entry_kapacitet.Text, entry_dodatniKomentar.Text)); // Dodamo učionicu u bazu
 				Skola.ucionice_lista.Add(DBUcionica.Dohvati_Ucionicu(entry_naziv.Text)); // Iz baze dohvaćamo učionicu s IDom kreiranim na bazi te ga stavljamo u listu

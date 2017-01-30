@@ -264,7 +264,8 @@ namespace Raspored
 			// Widget Raspored.ZauzmiTerminWindow
 			this.HeightRequest = 620;
 			this.Name = "Raspored.ZauzmiTerminWindow";
-			this.Title = global::Mono.Unix.Catalog.GetString("ZauzmiTerminWindow");
+			this.Title = global::Mono.Unix.Catalog.GetString("Zauzmi termin");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource("Raspored.Logo_smanjeni.png");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(1));
 			this.Modal = true;
 			this.BorderWidth = ((uint)(30));

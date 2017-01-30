@@ -10,6 +10,7 @@
   <widget class="Gtk.Window" id="MainWindow" design-size="443 660">
     <property name="MemberName" />
     <property name="Title" translatable="yes">Izbornik</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="BorderWidth">12</property>
     <property name="Resizable">False</property>
@@ -239,7 +240,8 @@
     <property name="MemberName" />
     <property name="WidthRequest">400</property>
     <property name="HeightRequest">300</property>
-    <property name="Title" translatable="yes">Dodaj Učionicu</property>
+    <property name="Title" translatable="yes">Dodaj učionicu</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">20</property>
@@ -683,7 +685,8 @@
   </widget>
   <widget class="Gtk.Window" id="Raspored.PregledajUcioneWindow" design-size="585 388">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">PregledajUcioneWindow</property>
+    <property name="Title" translatable="yes">Pregledaj ucione</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">20</property>
@@ -772,8 +775,9 @@
   </widget>
   <widget class="Gtk.Window" id="Raspored.PregledajPredavacaWindow" design-size="598 353">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">PregledajPredavacaWindow</property>
-    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Title" translatable="yes">Pregledaj predavaca</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
+    <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">20</property>
     <child>
@@ -861,7 +865,8 @@
   </widget>
   <widget class="Gtk.Window" id="Raspored.ZauzmiUcionuWindow" design-size="598 428">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">Zauzmi Učionu</property>
+    <property name="Title" translatable="yes">Zauzmi ucionicu</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">10</property>
@@ -990,7 +995,8 @@
   <widget class="Gtk.Window" id="Raspored.ZauzmiTerminWindow" design-size="612 800">
     <property name="MemberName" />
     <property name="HeightRequest">620</property>
-    <property name="Title" translatable="yes">ZauzmiTerminWindow</property>
+    <property name="Title" translatable="yes">Zauzmi termin</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">30</property>
@@ -2912,7 +2918,8 @@
   <widget class="Gtk.Window" id="Raspored.PregledajTermineWindow" design-size="816 819">
     <property name="MemberName" />
     <property name="HeightRequest">650</property>
-    <property name="Title" translatable="yes">PregledajTermineWindow</property>
+    <property name="Title" translatable="yes">Pregledaj termine</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="Resizable">False</property>

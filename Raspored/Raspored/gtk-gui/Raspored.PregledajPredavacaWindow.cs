@@ -23,7 +23,8 @@ namespace Raspored
 			global::Stetic.Gui.Initialize(this);
 			// Widget Raspored.PregledajPredavacaWindow
 			this.Name = "Raspored.PregledajPredavacaWindow";
-			this.Title = global::Mono.Unix.Catalog.GetString("PregledajPredavacaWindow");
+			this.Title = global::Mono.Unix.Catalog.GetString("Pregledaj predavaca");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource("Raspored.Logo_smanjeni.png");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			this.Modal = true;
 			this.BorderWidth = ((uint)(20));
