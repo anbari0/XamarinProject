@@ -448,7 +448,8 @@
     <property name="MemberName" />
     <property name="WidthRequest">380</property>
     <property name="HeightRequest">230</property>
-    <property name="Title" translatable="yes">DodajPredavacaWindow</property>
+    <property name="Title" translatable="yes">Dodaj predavaca</property>
+    <property name="Icon">resource:Raspored.Logo_smanjeni.png</property>
     <property name="WindowPosition">Center</property>
     <property name="Modal">True</property>
     <property name="BorderWidth">20</property>
