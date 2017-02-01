@@ -10,7 +10,7 @@ namespace Raspored
 		{
 			// Instanciranje SQL komande
 			SqliteCommand com = DB.con.CreateCommand();
-			//DROP TABLE IF EXISTS Predavac;
+			// DROP TABLE IF EXISTS Predavac;
 			com.CommandText = @"
 				
 				CREATE TABLE IF NOT EXISTS Predavac(

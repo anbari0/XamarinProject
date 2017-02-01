@@ -20,8 +20,18 @@ namespace Raspored
 			long OIB;
 			if (entry_ime.Text.Length > 2 && entry_prezime.Text.Length > 2 && entry_adresa.Text.Length > 2 && entry_OIB.Text.Length == 11 && Int64.TryParse(entry_OIB.Text, out OIB))
 			{
-				DBPredavac.Dodaj(new Predavac(entry_ime.Text, entry_prezime.Text, entry_adresa.Text, entry_OIB.Text));
-				Skola.predavaci_lista.Add(DBPredavac.Dohvati_Predavaca(entry_OIB.Text)); // Puni listu u programu iz baze i postavlja ID
+				try 
+				{
+					DBPredavac.Dodaj(new Predavac(entry_ime.Text, entry_prezime.Text, entry_adresa.Text, entry_OIB.Text));
+					Skola.predavaci_lista.Add(DBPredavac.Dohvati_Predavaca(entry_OIB.Text));
+				}
+				catch
+				{
+					Dialog d = new Gtk.MessageDialog(this, DialogFlags.Modal, MessageType.Error, ButtonsType.Ok, "OIB vec postoji!");
+					d.Run();
+					d.Destroy();
+				}
+				 // Puni listu u programu iz baze i postavlja ID
 				this.Destroy();
 			}
 			else 
